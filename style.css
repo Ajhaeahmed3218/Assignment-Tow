@@ -1,0 +1,108 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* heading start here  */
+
+
+                                  /* nav start here  */
+
+.nav-containmer{
+    max-width: 1440px;
+    width: 70%;
+    margin: 0px auto;
+    border: 2px solid tomato;
+    display: flex;
+    justify-content: space-between;
+}  
+.logo-div{
+    border: 2px solid green;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}   
+.logo-name{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+span{
+    color: #FF5400;
+}
+
+
+
+
+                             /* nav end here  */
+
+.bennar-main-container{
+    max-width: 1440px;
+    width: 70%;
+    margin: 0px auto;
+    background-image: url('B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat:no-repeat ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 16px;
+}
+
+.bennar-heding{
+    color: #FFF; 
+    font-size: 50px;
+    font-weight: 800;
+    padding: 160px 0px 25px 0px;
+}
+.bennar-title{
+    max-width: 670px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 48px;
+}
+.bennar-input-box{
+   
+ padding-bottom: 106px;
+    
+}
+form{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 1000px;
+    padding: 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.bennar-input-box form input {
+    font-size: 16px;
+    border: none;
+    border-radius: 8px ;
+    background: #FFF;
+    padding: 16px 50px 16px 15px;
+}
+.primary-btn{
+    color: #FFF;
+    /* text-align: center; */
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 16px 50px 16px 15px;
+    border: none;
+    margin-left:10px ;
+}
+
+
+/* heading end here  */
