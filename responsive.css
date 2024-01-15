@@ -1,6 +1,6 @@
 @media screen and (max-width:600px) {
     .bennar-main-container{
-        max-width: 330px;
+        max-width: 300px;
         width: 70%;
         margin: 0px auto;
         flex-direction: column;
@@ -44,13 +44,60 @@
         margin-left:10px ;
         width: 170px;
     }
-    /* .header{
-        max-width:200px ;
-        width: 100%;
-    } */
+   }
+   @media screen and (max-width:600px) {
+    .nav-containmer{
+        max-width: 300px;
+        width: 70%;
+        margin: 0px auto;
+        display: flex;
+        justify-content:center;
+        align-items: start;
+        margin-top: 50px;
+        flex-direction: column;
+        
+    }
+    .side-div ul{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+   }
+  
 
-    /* heading start here  */
+                /* main style  */
+                
+                
+    .populer-tour{
+        max-width: 300;
+        width: 70%;
+        flex-direction: column;
+    }    
+    .populer-tour-header{
+        color: #131318; 
+        font-size: 20px;  
+        font-weight: 800; 
+        padding-bottom:24px
     
-    /* heading end here  */
+    }  
+    .populer-tour-img img{
+        width: 100%;
+        max-width: 330px;    
 
+   }
+   .populer-tour-btn{
+    color: #FFF;
+       text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 8px;
+        background: #FF5400;
+        padding: 16px 15px 16px 15px;
+        border: none;
+        width: 170px;
+        margin-bottom: 22px;
+   }
+   .populer-tour-text{
+    width: 100%;
+   }
 }
+ 

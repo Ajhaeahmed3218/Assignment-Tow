@@ -20,6 +20,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
+    
 }  
 .logo-div{
     width: 50%;
@@ -120,3 +121,62 @@ form{
 
 
 /* heading end here  */
+
+
+/* main start here  */
+
+  /* populer tours style  */
+
+  .populer-tour{
+    max-width: 1440px;
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+  .populer-tour-header{
+    color: #131318; 
+    font-size: 40px;  
+    font-weight: 800; 
+    padding-bottom:24px ;
+    
+  }
+  .tour-text{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+  }
+  .populer-tour-btn{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 14px 35px;
+    border: none;
+    margin-top: 24px;
+  }
+  .populer-tour-text{
+    width: 50%;
+
+  }
+  .populer-tour-img img{
+    width: 50%;
+    width: 540px;
+  }
+  .populer-tour-img{
+    
+  }
+
+
+
+  /* populer tours style end  */
+
+
+
+
+
+/* main end here  */
