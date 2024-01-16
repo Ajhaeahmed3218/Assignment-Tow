@@ -7,7 +7,7 @@
         justify-content: center;
         align-items: center;
         margin-top: 30px;
-        
+    }
     .bennar-heding{
         color: #FFF; 
         font-size: 12px;
@@ -44,7 +44,9 @@
         margin-left:10px ;
         width: 170px;
     }
-   }
+
+}
+
    @media screen and (max-width:600px) {
     .nav-containmer{
         max-width: 300px;
@@ -151,7 +153,66 @@
 }
 
                  /* selection 3 Why-Choose-Us end */
-              
+              /* section Newslette start here  */
+.Newsletter-main-container{
+max-width: 300px;
+width: 70%;
+margin: 0px auto;
+display: flex;
+justify-content: center;
+margin-top: 100px;
+border: 2px solid rgb(80, 255, 71);
+gap: 20px;
+flex-direction: column;
+}     
+.login-box{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+    width: 70%; 
+} 
+.input-box{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 16px 50px 16px 20px;
+    margin-bottom: 16px;
+    border: none;
+} 
+.input-box-btn{
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 14px 50px;
+    border: none;
+}  
+.img-box img {
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+    
+}
+.save-70{
+    max-width: 120px;
+    width: 100%;
+    position: absolute;
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 10px;
+    bottom:  30px;
+    right:  10px;
+    transform: rotate(-19.628deg);
+} 
+.save-70-h3{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 800;
+}         
+.save-70-text{
+    color: #FFF;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+}      
+              /* section Newslette end here  */
 
 }
  
