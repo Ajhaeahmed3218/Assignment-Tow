@@ -98,7 +98,7 @@ form{
     display: inline-flex;
     align-items: flex-start;
     gap: 20px;
-    width: 1000px;
+    width: 100%;
     padding: 16px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
@@ -592,6 +592,8 @@ line-height: 26px; /* 162.5% */
 .hr{
     width: 50%;
 }
+
+
 
 
 /* footer end here  */
