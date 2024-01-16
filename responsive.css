@@ -55,14 +55,24 @@
         display: flex;
         justify-content:center;
         align-items: start;
-        margin-top: 50px;
+        margin-top: 60px;
         flex-direction: column;
         
+    }
+    .side-div{
+        visibility: hidden;
+    }
+    .logo-icon{
+        visibility:visible;
     }
     .side-div ul{
         display: flex;
         justify-content: space-between;
         flex-direction: column;
+   }
+   .logo-icon{
+     padding-left: 5px;
+     font-size: 25px;
    }
   
 
@@ -213,6 +223,42 @@ flex-direction: column;
     font-weight: 400;
 }      
               /* section Newslette end here  */
+
+
+              /* bonus task start  */
+.Simple-Place-maindiv{
+max-width: 300px;
+width: 70%;
+margin: 0px auto;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+margin-top: 100px;
+}   
+.Simple-Place-heading{
+    max-width: 100%px;
+    color: #131318;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 60px; 
+    padding-bottom:24px ;
+}      
+.Simple-Place-text{
+    width: 100%;
+} 
+.Simple-Place-btn{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px 40px 10px 40px;
+    border: none;
+    margin-bottom: 30px;
+}      
+              /* bonus task  end */
 
 }
  
