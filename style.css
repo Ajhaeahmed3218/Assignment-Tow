@@ -471,6 +471,79 @@ line-height: 26px; /* 162.5% */
 }
                 /* Simple Perfect Place end  */
 
+
+
+                /* bonus task start here  */
+
+ .bonus-task-mainduv-1{
+    max-width: 1250px;
+    width: 70%;
+    margin: 0px auto;
+    background-image: url('B9A2-Hero-Travel-main/Images/Group\ 39.png');
+    background-size:cover ;
+    background-repeat:no-repeat ;
+    display: flex;
+    justify-content: end;
+    padding: 50px;
+    border-radius: 16px;
+    margin-top: 100px;
+    
+
+ }  
+ .container{
+    
+    max-width: 579px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px 0px 50px 50px;
+
+ }   
+ .bonus-task-1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 0px 26px 0px;
+ }      
+ .bonus-task-h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+ }
+.bonus-task-p-1{
+    max-width: 452px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 16px 0px;
+    }
+    .bonus-task-btn{
+        border-radius: 8px;
+        background: #FF5400;
+        color: #FFF;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 800;
+        padding: 14px 24px;
+        border: none;
+        margin-top: 24px;
+
+    }
+
+    /* bonus 2  */
+    #bonus-2{
+        background-image: url('B9A2-Hero-Travel-main/Images/Group\ 40.png');
+        justify-content: start;
+    }
+
+
+
+                /* bonus task end here  */
 /* main end here  */
 
 
